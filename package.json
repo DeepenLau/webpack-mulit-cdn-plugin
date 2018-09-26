@@ -5,8 +5,12 @@
   "main": "index.js",
   "author": "DeepenLau <lpd09009@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeepenLau/webpack-mulit-cdn-plugin.git"
+  },
   "scripts": {
-    "eslint": "eslint ./index.js",
+    "eslint": "eslint ./lib/plugin.js",
     "prebuild": "rimraf ./example/dist/*",
     "build": "webpack --config ./example/webpack.config.js"
   },

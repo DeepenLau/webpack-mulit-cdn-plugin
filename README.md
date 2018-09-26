@@ -2,7 +2,7 @@
 
 Allows you to set single or mulit cdn path to your own static assets
 
-> Only work with webpack 4 for now
+> Only works with webpack 4 for now
 
 ## installation
 ```sh
